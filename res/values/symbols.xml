@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2016-2025 crDroid Android Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <java-symbol type="bool" name="def_battery_light_enabled" />
+    <java-symbol type="bool" name="def_battery_light_pulse" />
+    <java-symbol type="bool" name="def_battery_light_full_charge_disabled" />
+</resources>
