@@ -68,20 +68,7 @@ public class Utilities {
     }
 
     public static String getModVersion() {
-        return SystemProperties.get("ro.crdroid.build.version", Build.DISPLAY);
-    }
-
-    public static String getBuildDate() {
-        return SystemProperties.get("ro.build.date", "Unknown");
-    }
-
-    public static String getAndroidVersion() {
-        return SystemProperties.get("ro.crdroid.version", Build.VERSION.RELEASE);
-    }
-
-    public static String getTag() {
-        String tag = "Official"; // TODO
-        return tag;
+        return SystemProperties.get("ro.lineage.version", Build.DISPLAY);
     }
 
     public static String digest(String input) {
